@@ -39,8 +39,8 @@ public class LoginPage {
 		
 		public Masters Logincmms() {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			username.sendKeys("SANJAY");
-			password.sendKeys("qwerty@123");
+			username.sendKeys("#####");
+			password.sendKeys("****");
 			signin.click();
 			System.out.println("Logged-In Successfully");
 			
