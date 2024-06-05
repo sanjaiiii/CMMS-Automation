@@ -28,7 +28,7 @@ LoginPage page;
 	public void setup() {
 
 
-		setDriver("chrome", "https://sacmms.ripplesiot.net");
+		setDriver("chrome", "###########");
 		driver = getDriver();//To get the control of the driver instance in here
 		
 		// classname.methodname()
